@@ -30,21 +30,8 @@ template: |
 
   $CHANGES
 
-  ## Contributors
-
-  $CONTRIBUTORS
 
   ## Previous Tag
 
   $PREVIOUS_TAG
 
-  ## Repository
-  $REPOSITORY
-
-
-  ## Owner
-  $OWNER
-
-
-
-  $OWNER
