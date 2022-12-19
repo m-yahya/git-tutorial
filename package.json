@@ -1,0 +1,19 @@
+{
+  "name": "git-tutorial",
+  "version": "0.0.1",
+  "description": "This is a demo repository for Git and GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-yahya/git-tutorial.git"
+  },
+  "author": "Muhammad Yahya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-yahya/git-tutorial/issues"
+  },
+  "homepage": "https://github.com/m-yahya/git-tutorial#readme"
+}
