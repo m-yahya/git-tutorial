@@ -17,3 +17,6 @@ jobs:
         # This is something GitHub requires, there is not secret you need to add to repo
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        with:
+          tag_name: ${{github.run_number}}
+          release_name: ${{github.run_number}}
