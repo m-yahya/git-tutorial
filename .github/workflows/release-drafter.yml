@@ -1,0 +1,19 @@
+name: Release Notes Builder
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_release_draft:
+    runs-on: ubuntu-latest
+    steps:
+      # use the action
+      - uses: release-drafter/release-drafter@v5
+        with:
+          # use our config file we'll create later on
+          config-name: release-drafter.yml
+        # This is something GitHub requires, there is not secret you need to add to repo
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
